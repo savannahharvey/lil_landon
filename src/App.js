@@ -19,10 +19,10 @@ class App extends React.Component {
         </header>
         <section className="intro_sec">
             <div className="grid_system">
-                <img className="main_pic" src="images/LinkedIn Pic Portfolio Smaller.jpg" alt="Picture of Savannah Harvey"></img>
+                <img className="main_pic" src="/images/LinkedIn Pic Portfolio Smaller.jpg" alt="Picture of Savannah Harvey"></img>
                 <div className="intro">
-                    <p className="name"><span style="text-decoration: underline; text-decoration-color: #ffcf56;">Savannah Harvey</span></p>
-                    <p className="major"><span style="text-decoration: underline; text-decoration-color: #ffcf56;">Software Engineer</span></p>
+                    <p className="name">Savannah Harvey</p>
+                    <p className="major">Software Engineer</p>
                     <div className="button_links">
                         <a href="#about_me">About Me</a>
                         <a href="#personal_projects">Personal and Academic Projects</a>
