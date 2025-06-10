@@ -1,4 +1,5 @@
 import React from 'react';
+import menuLinksData from './data/menu_links.json';
 
 const Header = () => {
     return (
@@ -8,8 +9,11 @@ const Header = () => {
                     <a className="active" href="index.html">Home</a>
                 </div>
                 <div className="topnav_right">
-                    <a href="https://www.youtube.com/channel/UC9ANTlNBUvqEGknQaEGn6jg" target="_blank">Youtube Channel</a>
-                    <a href="https://www.linkedin.com/in/savannah-harvey1/" target="_blank">LinkedIn</a>
+                    {
+                        menuLinksData.map((link) =>
+                            <a href={link.href} target={link.target}>{link.text}</a>
+                        )
+                    }
                 </div>
             </div>
         </header>

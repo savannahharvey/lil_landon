@@ -1,0 +1,18 @@
+[
+    {
+        "href": "#about_me",
+        "text": "About Me"
+    },
+    {
+        "href": "#personal_projects",
+        "text": "Personal and Academic Projects"
+    },
+    {
+        "href": "#work_expereince",
+        "text": "Previous Work Experience"
+    },
+    {
+        "href": "#certificates_acheivements",
+        "text": "Certificates and Acheivements"
+    }
+]
